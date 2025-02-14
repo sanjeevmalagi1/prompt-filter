@@ -24,11 +24,15 @@ function App() {
   }
 
   return (
-    <div className="h-full bg-background">
+    <div className="min-h-screen bg-background">
       <HeaderV1 />
-      <div className="mx-auto">
-        <SearchV1 onSearch={handleSubmit} />
-        <ListV1 isLoading={isLoading} data={cves} />
+      <div className="mx-4 md:container md:mx-auto mb-10">
+        <div className="my-5">
+          <SearchV1 onSearch={handleSubmit} />
+        </div>
+        <div className="my-5">
+          <ListV1 isLoading={isLoading} data={cves} />
+        </div>
       </div>
       <FooterV1 />
     </div>

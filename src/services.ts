@@ -39,11 +39,6 @@ export async function fetchPayload(prompt: string) {
 }
 
 export async function fetchCVEs(payload: ICVEPayload | null): Promise<ICVE[]|null> {
-    // return new Promise((resolve, __reject) => {
-    //     setTimeout(() => {
-    //         resolve(cves as ICVE[])
-    //     }, 2000)
-    // })
     if (!payload) {
         return null
     }
@@ -56,4 +51,17 @@ export async function fetchCVEs(payload: ICVEPayload | null): Promise<ICVE[]|nul
     }
 
     return response.data
+}
+
+export function getDomainName(url: string): string | null {
+    try {
+        const hostname = new URL(url).hostname;
+        const parts = hostname.split('.');
+        if (parts.length > 2) {
+            return parts.slice(-2).join('.');
+        }
+        return hostname;
+    } catch (error) {
+        return null;
+    }
 }
