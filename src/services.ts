@@ -50,12 +50,16 @@ export async function fetchPayload(prompt: string) {
     return response.data.data
 }
 
-export async function fetchCVEs(payload: ICVEPayload | object): Promise<ICVE[]|null> {
-    // return new Promise((resolve, reject) => {
+export async function fetchCVEs(payload: ICVEPayload | null): Promise<ICVE[]|null> {
+    // return new Promise((resolve, __reject) => {
     //     setTimeout(() => {
     //         resolve(cves as ICVE[])
     //     }, 2000)
     // })
+    if (!payload) {
+        return null
+    }
+
     const body = payload
     
     const response = await axiosInstance.post(`/cves`, body)
