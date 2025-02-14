@@ -1,0 +1,2825 @@
+[
+    {
+        "name": "CVE-2021-34235",
+        "severity": 9.8,
+        "api_last_modified": "2025-02-06T17:42:48.187000",
+        "api_created": "2022-02-11T18:15:09.760000",
+        "references": [
+            {
+                "_id": "67a6acbaf4fbc8c464bf5a39",
+                "created": "2025-02-08T01:00:42.824000",
+                "updated": "2025-02-08T01:00:42.824000",
+                "url": "http://packetstormsecurity.com/files/165944/Tokheim-Profleet-DiaLOG-Fuel-Management-System-11.005.02-SQL-Injection-Code-Execution.html",
+                "storage_url": null,
+                "name": null,
+                "source": "cve@mitre.org",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Exploit",
+                    "Third Party Advisory",
+                    "VDB Entry"
+                ]
+            },
+            {
+                "_id": "67a6acbaf4fbc8c464bf5a3a",
+                "created": "2025-02-08T01:00:42.824000",
+                "updated": "2025-02-08T01:00:42.824000",
+                "url": "http://packetstormsecurity.com/files/165944/Tokheim-Profleet-DiaLOG-Fuel-Management-System-11.005.02-SQL-Injection-Code-Execution.html",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Exploit",
+                    "Third Party Advisory",
+                    "VDB Entry"
+                ]
+            }
+        ],
+        "metrics": {
+            "version": "3.1",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "attackVector": "NETWORK",
+            "attackComplexity": "LOW",
+            "privilegesRequired": "NONE",
+            "userInteraction": "NONE",
+            "scope": "UNCHANGED",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "availabilityImpact": "HIGH",
+            "baseScore": 9.8,
+            "baseSeverity": "CRITICAL",
+            "exploitCodeMaturity": null,
+            "remediationLevel": null,
+            "reportConfidence": null,
+            "temporalScore": null,
+            "temporalSeverity": null,
+            "confidentialityRequirement": null,
+            "integrityRequirement": null,
+            "availabilityRequirement": null,
+            "modifiedAttackVector": null,
+            "modifiedAttackComplexity": null,
+            "modifiedPrivilegesRequired": null,
+            "modifiedUserInteraction": null,
+            "modifiedScope": null,
+            "modifiedConfidentialityImpact": null,
+            "modifiedIntegrityImpact": null,
+            "modifiedAvailabilityImpact": null,
+            "environmentalScore": null,
+            "environmentalSeverity": null
+        },
+        "weaknesses": [
+            {
+                "source": "nvd@nist.gov",
+                "type": "Primary",
+                "description": [
+                    {
+                        "lang": "en",
+                        "value": "CWE-89"
+                    }
+                ]
+            }
+        ],
+        "configurations": [
+            {
+                "operator": "OR",
+                "negate": null,
+                "nodes": [
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:tsg-solutions:tokheim_profleet_dialog:11.005.02:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "8766b942-f398-4c17-aed9-6002b106eb00",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:tsg-solutions:tokheim_profleet_dialog:16.001.05:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "8c8919e5-6759-4a2e-9b11-fd8af728711e",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "epss_score": 0.00235,
+        "epss_percentile": 0.6247
+    },
+    {
+        "name": "CVE-2022-24682",
+        "severity": 6.1,
+        "api_last_modified": "2025-01-29T22:15:27.890000",
+        "api_created": "2022-02-09T04:15:07.400000",
+        "references": [
+            {
+                "_id": "679acf560f24808dda0ef2ed",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://blog.zimbra.com/2022/02/hotfix-available-5-feb-for-zero-day-exploit-vulnerability-in-zimbra-8-8-15/",
+                "storage_url": null,
+                "name": null,
+                "source": "cve@mitre.org",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Vendor Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef2ee",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://wiki.zimbra.com/wiki/Security_Center",
+                "storage_url": null,
+                "name": null,
+                "source": "cve@mitre.org",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Vendor Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef2ef",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://wiki.zimbra.com/wiki/Zimbra_Releases/8.8.15/P30",
+                "storage_url": null,
+                "name": null,
+                "source": "cve@mitre.org",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Release Notes",
+                    "Vendor Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef2f0",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories",
+                "storage_url": null,
+                "name": null,
+                "source": "cve@mitre.org",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Vendor Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef2f1",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://www.volexity.com/blog/2022/02/03/operation-emailthief-active-exploitation-of-zero-day-xss-vulnerability-in-zimbra/",
+                "storage_url": null,
+                "name": null,
+                "source": "cve@mitre.org",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Exploit",
+                    "Third Party Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef2f2",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://blog.zimbra.com/2022/02/hotfix-available-5-feb-for-zero-day-exploit-vulnerability-in-zimbra-8-8-15/",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Vendor Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef2f3",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://wiki.zimbra.com/wiki/Security_Center",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Vendor Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef2f4",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://wiki.zimbra.com/wiki/Zimbra_Releases/8.8.15/P30",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Release Notes",
+                    "Vendor Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef2f5",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Vendor Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef2f6",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://www.volexity.com/blog/2022/02/03/operation-emailthief-active-exploitation-of-zero-day-xss-vulnerability-in-zimbra/",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Exploit",
+                    "Third Party Advisory"
+                ]
+            }
+        ],
+        "metrics": {
+            "version": "3.1",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "attackVector": "NETWORK",
+            "attackComplexity": "LOW",
+            "privilegesRequired": "NONE",
+            "userInteraction": "REQUIRED",
+            "scope": "CHANGED",
+            "confidentialityImpact": "LOW",
+            "integrityImpact": "LOW",
+            "availabilityImpact": "NONE",
+            "baseScore": 6.1,
+            "baseSeverity": "MEDIUM",
+            "exploitCodeMaturity": null,
+            "remediationLevel": null,
+            "reportConfidence": null,
+            "temporalScore": null,
+            "temporalSeverity": null,
+            "confidentialityRequirement": null,
+            "integrityRequirement": null,
+            "availabilityRequirement": null,
+            "modifiedAttackVector": null,
+            "modifiedAttackComplexity": null,
+            "modifiedPrivilegesRequired": null,
+            "modifiedUserInteraction": null,
+            "modifiedScope": null,
+            "modifiedConfidentialityImpact": null,
+            "modifiedIntegrityImpact": null,
+            "modifiedAvailabilityImpact": null,
+            "environmentalScore": null,
+            "environmentalSeverity": null
+        },
+        "weaknesses": [
+            {
+                "source": "nvd@nist.gov",
+                "type": "Primary",
+                "description": [
+                    {
+                        "lang": "en",
+                        "value": "CWE-116"
+                    }
+                ]
+            },
+            {
+                "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+                "type": "Secondary",
+                "description": [
+                    {
+                        "lang": "en",
+                        "value": "CWE-116"
+                    }
+                ]
+            }
+        ],
+        "configurations": [
+            {
+                "operator": "OR",
+                "negate": null,
+                "nodes": [
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "9bdccb43-ebe0-4e5d-b2e1-e346a3694ab9",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": "8.8",
+                                "versionEndExcluding": "8.8.15",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:-:*:*:*:*:*:*",
+                                "matchCriteriaId": "1b17c1a7-0f0a-4e7c-8c0c-0bbb0bf66c82",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p1:*:*:*:*:*:*",
+                                "matchCriteriaId": "ba48c450-201c-4398-ab65-ef6f95fb0380",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p10:*:*:*:*:*:*",
+                                "matchCriteriaId": "5f759114-cf2d-48bf-8d09-ebe8d1ed1949",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p11:*:*:*:*:*:*",
+                                "matchCriteriaId": "ae8bd950-24a2-4aff-b7ee-6ee115bd75d6",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p12:*:*:*:*:*:*",
+                                "matchCriteriaId": "c43634f5-2946-44d2-8a50-b717374a8126",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p13:*:*:*:*:*:*",
+                                "matchCriteriaId": "20315895-5410-4b88-b2d9-e9c5d79a64df",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p14:*:*:*:*:*:*",
+                                "matchCriteriaId": "bf405091-a832-4945-87ec-aa525f37df91",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p15:*:*:*:*:*:*",
+                                "matchCriteriaId": "c9b6ffa8-cfd2-47c6-9475-79210cb9aa84",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p16:*:*:*:*:*:*",
+                                "matchCriteriaId": "964ca714-937c-4fc0-a1e9-07f846c786bd",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p17:*:*:*:*:*:*",
+                                "matchCriteriaId": "daf8f155-1406-46ed-a81f-bcc4ce525f43",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p18:*:*:*:*:*:*",
+                                "matchCriteriaId": "56a8f56b-3457-4c19-b213-3b04fee8d7a5",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p19:*:*:*:*:*:*",
+                                "matchCriteriaId": "b4f8d255-3f91-45ff-9133-4023ba688f9e",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p2:*:*:*:*:*:*",
+                                "matchCriteriaId": "37bc4df5-d111-4295-94fc-aa8929cdf2a1",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p20:*:*:*:*:*:*",
+                                "matchCriteriaId": "a9d50108-0404-4791-8057-db1786d311c8",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p21:*:*:*:*:*:*",
+                                "matchCriteriaId": "f2a7e53f-8eac-4da9-8eae-117759efabef",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p22:*:*:*:*:*:*",
+                                "matchCriteriaId": "858727db-ae6f-435d-b8fd-6c94c3400e40",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p23:*:*:*:*:*:*",
+                                "matchCriteriaId": "3fa6ac95-288c-4aba-b2a7-47e4134edc31",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p24:*:*:*:*:*:*",
+                                "matchCriteriaId": "4aa82728-5901-482a-83cf-f883d4b6a8e5",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p25:*:*:*:*:*:*",
+                                "matchCriteriaId": "7e762792-542e-43d0-a95a-e7f48f328a28",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p26:*:*:*:*:*:*",
+                                "matchCriteriaId": "6dd4641a-ec23-4b1a-8729-9aecd70390af",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p27:*:*:*:*:*:*",
+                                "matchCriteriaId": "e0e3e825-1d1e-4ecd-b306-dd8bdcdd0547",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p28:*:*:*:*:*:*",
+                                "matchCriteriaId": "840f98dc-57f1-4054-a6c1-6e7f0340ac2c",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p29:*:*:*:*:*:*",
+                                "matchCriteriaId": "ee2a1305-68b7-4cb7-837f-4ede2ebed507",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p3:*:*:*:*:*:*",
+                                "matchCriteriaId": "21768a61-7578-4eec-a23b-fec10caa9edf",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p4:*:*:*:*:*:*",
+                                "matchCriteriaId": "661403e7-1d65-4710-8413-47d74ff65be4",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p5:*:*:*:*:*:*",
+                                "matchCriteriaId": "0695d2e0-45b3-493c-ba6d-471b90c0acc5",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p6:*:*:*:*:*:*",
+                                "matchCriteriaId": "714fafe6-68ae-4304-b040-48bc46f85a2d",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p7:*:*:*:*:*:*",
+                                "matchCriteriaId": "73fc2d2d-8bbd-4259-8b35-0d9bfa40567b",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p8:*:*:*:*:*:*",
+                                "matchCriteriaId": "ab97e9e6-cc4a-458d-b731-6d51130b942c",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:zimbra:collaboration:8.8.15:p9:*:*:*:*:*:*",
+                                "matchCriteriaId": "ba688c43-846a-4c4a-aedb-113d967d3d73",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "epss_score": 0.02296,
+        "epss_percentile": 0.90075
+    },
+    {
+        "name": "CVE-2022-24112",
+        "severity": 9.8,
+        "api_last_modified": "2025-01-29T22:15:27.690000",
+        "api_created": "2022-02-11T13:15:08.073000",
+        "references": [
+            {
+                "_id": "679acf560f24808dda0ef303",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "http://packetstormsecurity.com/files/166228/Apache-APISIX-Remote-Code-Execution.html",
+                "storage_url": null,
+                "name": null,
+                "source": "security@apache.org",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Exploit",
+                    "Third Party Advisory",
+                    "VDB Entry"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef304",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "http://packetstormsecurity.com/files/166328/Apache-APISIX-2.12.1-Remote-Code-Execution.html",
+                "storage_url": null,
+                "name": null,
+                "source": "security@apache.org",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Exploit",
+                    "Third Party Advisory",
+                    "VDB Entry"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef305",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "http://www.openwall.com/lists/oss-security/2022/02/11/3",
+                "storage_url": null,
+                "name": null,
+                "source": "security@apache.org",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Mailing List",
+                    "Mitigation",
+                    "Third Party Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef306",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://lists.apache.org/thread/lcdqywz8zy94mdysk7p3gfdgn51jmt94",
+                "storage_url": null,
+                "name": null,
+                "source": "security@apache.org",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Mailing List",
+                    "Mitigation",
+                    "Vendor Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef307",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "http://packetstormsecurity.com/files/166228/Apache-APISIX-Remote-Code-Execution.html",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Exploit",
+                    "Third Party Advisory",
+                    "VDB Entry"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef308",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "http://packetstormsecurity.com/files/166328/Apache-APISIX-2.12.1-Remote-Code-Execution.html",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Exploit",
+                    "Third Party Advisory",
+                    "VDB Entry"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef309",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "http://www.openwall.com/lists/oss-security/2022/02/11/3",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Mailing List",
+                    "Mitigation",
+                    "Third Party Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef30a",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://lists.apache.org/thread/lcdqywz8zy94mdysk7p3gfdgn51jmt94",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Mailing List",
+                    "Mitigation",
+                    "Vendor Advisory"
+                ]
+            }
+        ],
+        "metrics": {
+            "version": "3.1",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "attackVector": "NETWORK",
+            "attackComplexity": "LOW",
+            "privilegesRequired": "NONE",
+            "userInteraction": "NONE",
+            "scope": "UNCHANGED",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "availabilityImpact": "HIGH",
+            "baseScore": 9.8,
+            "baseSeverity": "CRITICAL",
+            "exploitCodeMaturity": null,
+            "remediationLevel": null,
+            "reportConfidence": null,
+            "temporalScore": null,
+            "temporalSeverity": null,
+            "confidentialityRequirement": null,
+            "integrityRequirement": null,
+            "availabilityRequirement": null,
+            "modifiedAttackVector": null,
+            "modifiedAttackComplexity": null,
+            "modifiedPrivilegesRequired": null,
+            "modifiedUserInteraction": null,
+            "modifiedScope": null,
+            "modifiedConfidentialityImpact": null,
+            "modifiedIntegrityImpact": null,
+            "modifiedAvailabilityImpact": null,
+            "environmentalScore": null,
+            "environmentalSeverity": null
+        },
+        "weaknesses": [
+            {
+                "source": "security@apache.org",
+                "type": "Secondary",
+                "description": [
+                    {
+                        "lang": "en",
+                        "value": "CWE-290"
+                    }
+                ]
+            },
+            {
+                "source": "nvd@nist.gov",
+                "type": "Primary",
+                "description": [
+                    {
+                        "lang": "en",
+                        "value": "CWE-290"
+                    }
+                ]
+            }
+        ],
+        "configurations": [
+            {
+                "operator": "OR",
+                "negate": null,
+                "nodes": [
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:apache:apisix:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "da41efa2-1d6e-4d57-89bc-f8a96d684f23",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "2.10.4",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:apache:apisix:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "8f0b2998-1638-42bc-8585-9af1e137f4cf",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": "2.11.0",
+                                "versionEndExcluding": "2.12.1",
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "epss_score": 0.97382,
+        "epss_percentile": 0.99939
+    },
+    {
+        "name": "CVE-2021-3560",
+        "severity": 7.8,
+        "api_last_modified": "2025-01-29T22:15:27.463000",
+        "api_created": "2022-02-16T19:15:08.450000",
+        "references": [
+            {
+                "_id": "679acf560f24808dda0ef311",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "http://packetstormsecurity.com/files/172836/polkit-Authentication-Bypass.html",
+                "storage_url": null,
+                "name": null,
+                "source": "secalert@redhat.com",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Third Party Advisory",
+                    "VDB Entry"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef312",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "http://packetstormsecurity.com/files/172846/Facebook-Fizz-Denial-Of-Service.html",
+                "storage_url": null,
+                "name": null,
+                "source": "secalert@redhat.com",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Third Party Advisory",
+                    "VDB Entry"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef313",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1961710",
+                "storage_url": null,
+                "name": null,
+                "source": "secalert@redhat.com",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Issue Tracking",
+                    "Patch",
+                    "Vendor Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef314",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://github.blog/2021-06-10-privilege-escalation-polkit-root-on-linux-with-bug/",
+                "storage_url": null,
+                "name": null,
+                "source": "secalert@redhat.com",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Exploit",
+                    "Third Party Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef315",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "http://packetstormsecurity.com/files/172836/polkit-Authentication-Bypass.html",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Third Party Advisory",
+                    "VDB Entry"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef316",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "http://packetstormsecurity.com/files/172846/Facebook-Fizz-Denial-Of-Service.html",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Third Party Advisory",
+                    "VDB Entry"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef317",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1961710",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Issue Tracking",
+                    "Patch",
+                    "Vendor Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef318",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://github.blog/2021-06-10-privilege-escalation-polkit-root-on-linux-with-bug/",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Exploit",
+                    "Third Party Advisory"
+                ]
+            }
+        ],
+        "metrics": {
+            "version": "3.1",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "attackVector": "LOCAL",
+            "attackComplexity": "LOW",
+            "privilegesRequired": "LOW",
+            "userInteraction": "NONE",
+            "scope": "UNCHANGED",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.8,
+            "baseSeverity": "HIGH",
+            "exploitCodeMaturity": null,
+            "remediationLevel": null,
+            "reportConfidence": null,
+            "temporalScore": null,
+            "temporalSeverity": null,
+            "confidentialityRequirement": null,
+            "integrityRequirement": null,
+            "availabilityRequirement": null,
+            "modifiedAttackVector": null,
+            "modifiedAttackComplexity": null,
+            "modifiedPrivilegesRequired": null,
+            "modifiedUserInteraction": null,
+            "modifiedScope": null,
+            "modifiedConfidentialityImpact": null,
+            "modifiedIntegrityImpact": null,
+            "modifiedAvailabilityImpact": null,
+            "environmentalScore": null,
+            "environmentalSeverity": null
+        },
+        "weaknesses": [
+            {
+                "source": "secalert@redhat.com",
+                "type": "Secondary",
+                "description": [
+                    {
+                        "lang": "en",
+                        "value": "CWE-863"
+                    }
+                ]
+            },
+            {
+                "source": "nvd@nist.gov",
+                "type": "Primary",
+                "description": [
+                    {
+                        "lang": "en",
+                        "value": "CWE-754"
+                    }
+                ]
+            }
+        ],
+        "configurations": [
+            {
+                "operator": "OR",
+                "negate": null,
+                "nodes": [
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:polkit_project:polkit:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "771ab1ea-d17c-4dfc-9a97-b197f1771818",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "0.119",
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "operator": "OR",
+                "negate": null,
+                "nodes": [
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:debian:debian_linux:11.0:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "fa6feec2-9f11-4643-8827-749718254fed",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "operator": "OR",
+                "negate": null,
+                "nodes": [
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:canonical:ubuntu_linux:20.04:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "8e442013-ebf8-44f2-aaaa-b23816f3230e",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "operator": "AND",
+                "negate": null,
+                "nodes": [
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:redhat:virtualization:4.0:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "6bbd7a51-0590-4ddf-8249-5afa8d645cb6",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:redhat:virtualization_host:4.0:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "bb28f9af-3d06-4532-b397-96d7e4792503",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    },
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": false,
+                                "criteria": "cpe:2.3:o:redhat:enterprise_linux:8.0:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "f4cff558-3c47-480d-a2f0-babf26042943",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "operator": "AND",
+                "negate": null,
+                "nodes": [
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:redhat:openshift_container_platform:4.7:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "14cf53d2-b585-4ea5-8f18-21bc9ecbb4b6",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    },
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": false,
+                                "criteria": "cpe:2.3:o:redhat:enterprise_linux:7.0:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "142ad0dd-4cf3-4d74-9442-459ce3347e3a",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": false,
+                                "criteria": "cpe:2.3:o:redhat:enterprise_linux:8.0:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "f4cff558-3c47-480d-a2f0-babf26042943",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "epss_score": 0.01177,
+        "epss_percentile": 0.85671
+    },
+    {
+        "name": "CVE-2022-22536",
+        "severity": 10.0,
+        "api_last_modified": "2025-01-29T21:15:12.800000",
+        "api_created": "2022-02-09T23:15:18.620000",
+        "references": [
+            {
+                "_id": "679acf560f24808dda0ef2fe",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://launchpad.support.sap.com/#/notes/3123396",
+                "storage_url": null,
+                "name": null,
+                "source": "cna@sap.com",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Permissions Required"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef2ff",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html",
+                "storage_url": null,
+                "name": null,
+                "source": "cna@sap.com",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Not Applicable",
+                    "Vendor Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef300",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://launchpad.support.sap.com/#/notes/3123396",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Permissions Required"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef301",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Not Applicable",
+                    "Vendor Advisory"
+                ]
+            }
+        ],
+        "metrics": {
+            "version": "3.1",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "attackVector": "NETWORK",
+            "attackComplexity": "LOW",
+            "privilegesRequired": "NONE",
+            "userInteraction": "NONE",
+            "scope": "UNCHANGED",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "availabilityImpact": "HIGH",
+            "baseScore": 9.8,
+            "baseSeverity": "CRITICAL",
+            "exploitCodeMaturity": null,
+            "remediationLevel": null,
+            "reportConfidence": null,
+            "temporalScore": null,
+            "temporalSeverity": null,
+            "confidentialityRequirement": null,
+            "integrityRequirement": null,
+            "availabilityRequirement": null,
+            "modifiedAttackVector": null,
+            "modifiedAttackComplexity": null,
+            "modifiedPrivilegesRequired": null,
+            "modifiedUserInteraction": null,
+            "modifiedScope": null,
+            "modifiedConfidentialityImpact": null,
+            "modifiedIntegrityImpact": null,
+            "modifiedAvailabilityImpact": null,
+            "environmentalScore": null,
+            "environmentalSeverity": null
+        },
+        "weaknesses": [
+            {
+                "source": "cna@sap.com",
+                "type": "Secondary",
+                "description": [
+                    {
+                        "lang": "en",
+                        "value": "CWE-444"
+                    }
+                ]
+            }
+        ],
+        "configurations": [
+            {
+                "operator": "OR",
+                "negate": null,
+                "nodes": [
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:content_server:7.53:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "a02fb973-7fa0-4881-b912-27f4cfbdc673",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:netweaver_application_server_abap:7.22:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "16b3c589-df11-459d-8a3f-1a1fd2265022",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:netweaver_application_server_abap:7.49:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "9fbc5614-7c3f-4ad8-8640-0499b8b03c64",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:netweaver_application_server_abap:7.53:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "9e8cb869-c342-4362-9a4a-298f0b5f4003",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:netweaver_application_server_abap:7.77:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "89e7439e-f4d6-45ea-99fc-c9b34d4d590e",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:netweaver_application_server_abap:7.81:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "252dcef2-8ddf-467f-8869-b69a0a3426f8",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:netweaver_application_server_abap:7.85:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "9bc578be-2308-491e-9d56-6b45aff0fcfa",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:netweaver_application_server_abap:7.86:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "7c0e10a3-591a-4fa7-9b98-d54c3d6c63fa",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:netweaver_application_server_abap:7.87:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "150b6370-f18a-4657-95ed-d969bf7c39ce",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:netweaver_application_server_abap:8.04:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "12974ffa-3168-4a80-acfb-d5e065a89383",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:netweaver_application_server_abap:krnl64nuc_7.22:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "c2d5becf-c4ba-44c7-9ad7-56865dd9ad60",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:netweaver_application_server_abap:krnl64nuc_7.22ext:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "ab7e91de-a52f-4e57-8397-7670e30c8b5c",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:netweaver_application_server_abap:krnl64nuc_7.49:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "ab478a3c-4dd5-4f42-b2f1-9b7ccba1b995",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:netweaver_application_server_abap:krnl64uc_7.22:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "23257c18-b75c-471c-9eaf-1e86dee845fa",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:netweaver_application_server_abap:krnl64uc_7.22ext:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "a01290a1-3c1b-4af7-9284-c164bdec85a2",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:netweaver_application_server_abap:krnl64uc_7.49:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "6d5f8b53-ecad-4cd2-8f91-25112569c056",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:netweaver_application_server_abap:krnl64uc_7.53:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "ade160bd-659f-4517-b625-61cfb2fbd456",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:netweaver_application_server_abap:krnl64uc_8.04:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "88cd861f-08fb-4ce1-923c-79d1480a2259",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:web_dispatcher:7.22ext:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "d3f76e6a-2f27-450c-aab5-e49a64079cac",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:web_dispatcher:7.49:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "0b4a7850-377c-4463-a5d7-07f516fbd74a",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:web_dispatcher:7.53:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "47d4d542-2ec2-490b-b4e9-3e7bb8d59b77",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:web_dispatcher:7.77:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "e33d9481-3cf6-4aa3-b115-7903ac6dae25",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:web_dispatcher:7.81:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "49ff2a5b-e5f0-4991-9aa3-7cb3b8c62941",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:web_dispatcher:7.85:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "f74ee4d5-e968-4851-89e6-4152f64930f2",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:web_dispatcher:7.86:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "327a87ad-6635-4511-8505-f4418cd9d49c",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:sap:web_dispatcher:7.87:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "324c32ff-6f89-401f-9add-57a68320e06d",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "epss_score": 0.95766,
+        "epss_percentile": 0.99513
+    },
+    {
+        "name": "CVE-2022-21999",
+        "severity": 7.8,
+        "api_last_modified": "2025-01-29T21:15:12.597000",
+        "api_created": "2022-02-09T17:15:09.563000",
+        "references": [
+            {
+                "_id": "679acf560f24808dda0ef2fb",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-21999",
+                "storage_url": null,
+                "name": null,
+                "source": "secure@microsoft.com",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Patch",
+                    "Vendor Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef2fc",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-21999",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Patch",
+                    "Vendor Advisory"
+                ]
+            }
+        ],
+        "metrics": {
+            "version": "3.1",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "attackVector": "LOCAL",
+            "attackComplexity": "LOW",
+            "privilegesRequired": "LOW",
+            "userInteraction": "NONE",
+            "scope": "UNCHANGED",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.8,
+            "baseSeverity": "HIGH",
+            "exploitCodeMaturity": null,
+            "remediationLevel": null,
+            "reportConfidence": null,
+            "temporalScore": null,
+            "temporalSeverity": null,
+            "confidentialityRequirement": null,
+            "integrityRequirement": null,
+            "availabilityRequirement": null,
+            "modifiedAttackVector": null,
+            "modifiedAttackComplexity": null,
+            "modifiedPrivilegesRequired": null,
+            "modifiedUserInteraction": null,
+            "modifiedScope": null,
+            "modifiedConfidentialityImpact": null,
+            "modifiedIntegrityImpact": null,
+            "modifiedAvailabilityImpact": null,
+            "environmentalScore": null,
+            "environmentalSeverity": null
+        },
+        "weaknesses": [
+            {
+                "source": "nvd@nist.gov",
+                "type": "Primary",
+                "description": [
+                    {
+                        "lang": "en",
+                        "value": "CWE-22"
+                    },
+                    {
+                        "lang": "en",
+                        "value": "CWE-59"
+                    }
+                ]
+            },
+            {
+                "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+                "type": "Secondary",
+                "description": [
+                    {
+                        "lang": "en",
+                        "value": "CWE-22"
+                    },
+                    {
+                        "lang": "en",
+                        "value": "CWE-59"
+                    }
+                ]
+            }
+        ],
+        "configurations": [
+            {
+                "operator": "OR",
+                "negate": null,
+                "nodes": [
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_10_1507:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "bc358662-d194-422e-8f3a-6adcfe4fa005",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.10240.19204",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_10_1607:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "ea2b6c6d-14f0-4094-b2b9-e83f0a1c9d5d",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.14393.4946",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_10_1809:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "f47d7d57-5c24-46d8-a515-8007757f5498",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.17763.2565",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_10_1909:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "3bf8b084-27dc-4f86-b801-b62fe796ff50",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.18363.2094",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_10_20h2:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "b3d9a9c7-8331-4549-9153-65bdd758a583",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.19042.1526",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_10_21h1:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "b40311c2-4ed8-4b9a-b9b5-2ccab28eea66",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.19043.1526",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_10_21h2:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "05511cd6-cbab-4534-a8e3-b846ecc3ddff",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.19044.1526",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_11_21h2:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "9b3f7af6-7251-4ef7-b044-99699e97b5c9",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.22000.493",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_7:-:sp1:*:*:*:*:*:*",
+                                "matchCriteriaId": "c2b1c231-de19-4b8f-a4aa-5b3a65276e46",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_8.1:-:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "e93068db-549b-45ab-8e5c-00eb5d8b5cf8",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_rt_8.1:-:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "c6ce5198-c498-4672-af4c-77ab4be06c5c",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_server_2008:-:sp2:*:*:*:*:*:*",
+                                "matchCriteriaId": "5f422a8c-2c4e-42c8-b420-e0728037e15c",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_server_2008:r2:sp1:*:*:*:*:x64:*",
+                                "matchCriteriaId": "af07a81d-12e5-4b1d-bff9-c8d08c32ff4f",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_server_2012:-:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "a7df96f8-ba6a-4780-9ca3-f719b3f81074",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_server_2012:r2:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "db18c4ce-5917-401e-acf7-2747084fd36e",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_server_2016:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "40d7b6ee-13d8-4520-913c-d53b79e9e3ad",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.14393.4946",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_server_2019:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "b5e25cb9-f0c4-44f2-a302-41d2c7c9db4a",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.17763.2565",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_server_2022:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "97c266dc-3ad4-4593-a9a8-27f6d5e61aed",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.20348.524",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_server_20h2:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "e5161f88-f831-4e07-a54f-e3e7a019a355",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.19042.1526",
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "epss_score": 0.71196,
+        "epss_percentile": 0.98165
+    },
+    {
+        "name": "CVE-2022-21971",
+        "severity": 7.8,
+        "api_last_modified": "2025-01-29T21:15:12.387000",
+        "api_created": "2022-02-09T17:15:08.640000",
+        "references": [
+            {
+                "_id": "679acf560f24808dda0ef2f8",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-21971",
+                "storage_url": null,
+                "name": null,
+                "source": "secure@microsoft.com",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Patch",
+                    "Vendor Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef2f9",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-21971",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Patch",
+                    "Vendor Advisory"
+                ]
+            }
+        ],
+        "metrics": {
+            "version": "3.1",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "attackVector": "LOCAL",
+            "attackComplexity": "LOW",
+            "privilegesRequired": "NONE",
+            "userInteraction": "REQUIRED",
+            "scope": "UNCHANGED",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.8,
+            "baseSeverity": "HIGH",
+            "exploitCodeMaturity": null,
+            "remediationLevel": null,
+            "reportConfidence": null,
+            "temporalScore": null,
+            "temporalSeverity": null,
+            "confidentialityRequirement": null,
+            "integrityRequirement": null,
+            "availabilityRequirement": null,
+            "modifiedAttackVector": null,
+            "modifiedAttackComplexity": null,
+            "modifiedPrivilegesRequired": null,
+            "modifiedUserInteraction": null,
+            "modifiedScope": null,
+            "modifiedConfidentialityImpact": null,
+            "modifiedIntegrityImpact": null,
+            "modifiedAvailabilityImpact": null,
+            "environmentalScore": null,
+            "environmentalSeverity": null
+        },
+        "weaknesses": [
+            {
+                "source": "nvd@nist.gov",
+                "type": "Primary",
+                "description": [
+                    {
+                        "lang": "en",
+                        "value": "CWE-824"
+                    }
+                ]
+            },
+            {
+                "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+                "type": "Secondary",
+                "description": [
+                    {
+                        "lang": "en",
+                        "value": "CWE-824"
+                    }
+                ]
+            }
+        ],
+        "configurations": [
+            {
+                "operator": "OR",
+                "negate": null,
+                "nodes": [
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_10_1809:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "f47d7d57-5c24-46d8-a515-8007757f5498",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.17763.2565",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_10_1909:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "3bf8b084-27dc-4f86-b801-b62fe796ff50",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.18363.2094",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_10_20h2:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "b3d9a9c7-8331-4549-9153-65bdd758a583",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.19042.1526",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_10_21h1:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "b40311c2-4ed8-4b9a-b9b5-2ccab28eea66",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.19043.1526",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_10_21h2:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "05511cd6-cbab-4534-a8e3-b846ecc3ddff",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.19044.1526",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_11_21h2:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "9b3f7af6-7251-4ef7-b044-99699e97b5c9",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.22000.493",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_server_2019:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "b5e25cb9-f0c4-44f2-a302-41d2c7c9db4a",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.17763.2565",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_server_2022:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "97c266dc-3ad4-4593-a9a8-27f6d5e61aed",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.20348.524",
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:microsoft:windows_server_20h2:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "e5161f88-f831-4e07-a54f-e3e7a019a355",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "10.0.19042.1526",
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "epss_score": 0.28324,
+        "epss_percentile": 0.97009
+    },
+    {
+        "name": "CVE-2022-0543",
+        "severity": 10.0,
+        "api_last_modified": "2025-01-29T21:15:11.987000",
+        "api_created": "2022-02-18T20:15:17.583000",
+        "references": [
+            {
+                "_id": "679acf560f24808dda0ef31f",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "http://packetstormsecurity.com/files/166885/Redis-Lua-Sandbox-Escape.html",
+                "storage_url": null,
+                "name": null,
+                "source": "security@debian.org",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Exploit",
+                    "Third Party Advisory",
+                    "VDB Entry"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef320",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://bugs.debian.org/1005787",
+                "storage_url": null,
+                "name": null,
+                "source": "security@debian.org",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Issue Tracking",
+                    "Patch",
+                    "Third Party Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef321",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://lists.debian.org/debian-security-announce/2022/msg00048.html",
+                "storage_url": null,
+                "name": null,
+                "source": "security@debian.org",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Mailing List",
+                    "Third Party Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef322",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://security.netapp.com/advisory/ntap-20220331-0004/",
+                "storage_url": null,
+                "name": null,
+                "source": "security@debian.org",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Third Party Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef323",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://www.debian.org/security/2022/dsa-5081",
+                "storage_url": null,
+                "name": null,
+                "source": "security@debian.org",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Mailing List",
+                    "Third Party Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef324",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://www.ubercomp.com/posts/2022-01-20_redis_on_debian_rce",
+                "storage_url": null,
+                "name": null,
+                "source": "security@debian.org",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Third Party Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef325",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "http://packetstormsecurity.com/files/166885/Redis-Lua-Sandbox-Escape.html",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Exploit",
+                    "Third Party Advisory",
+                    "VDB Entry"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef326",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://bugs.debian.org/1005787",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Issue Tracking",
+                    "Patch",
+                    "Third Party Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef327",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://lists.debian.org/debian-security-announce/2022/msg00048.html",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Mailing List",
+                    "Third Party Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef328",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://security.netapp.com/advisory/ntap-20220331-0004/",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Third Party Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef329",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://www.debian.org/security/2022/dsa-5081",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Mailing List",
+                    "Third Party Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef32a",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://www.ubercomp.com/posts/2022-01-20_redis_on_debian_rce",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Third Party Advisory"
+                ]
+            }
+        ],
+        "metrics": {
+            "version": "3.1",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+            "attackVector": "NETWORK",
+            "attackComplexity": "LOW",
+            "privilegesRequired": "NONE",
+            "userInteraction": "NONE",
+            "scope": "CHANGED",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "availabilityImpact": "HIGH",
+            "baseScore": 10.0,
+            "baseSeverity": "CRITICAL",
+            "exploitCodeMaturity": null,
+            "remediationLevel": null,
+            "reportConfidence": null,
+            "temporalScore": null,
+            "temporalSeverity": null,
+            "confidentialityRequirement": null,
+            "integrityRequirement": null,
+            "availabilityRequirement": null,
+            "modifiedAttackVector": null,
+            "modifiedAttackComplexity": null,
+            "modifiedPrivilegesRequired": null,
+            "modifiedUserInteraction": null,
+            "modifiedScope": null,
+            "modifiedConfidentialityImpact": null,
+            "modifiedIntegrityImpact": null,
+            "modifiedAvailabilityImpact": null,
+            "environmentalScore": null,
+            "environmentalSeverity": null
+        },
+        "weaknesses": [
+            {
+                "source": "nvd@nist.gov",
+                "type": "Primary",
+                "description": [
+                    {
+                        "lang": "en",
+                        "value": "CWE-862"
+                    }
+                ]
+            },
+            {
+                "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+                "type": "Secondary",
+                "description": [
+                    {
+                        "lang": "en",
+                        "value": "CWE-862"
+                    }
+                ]
+            }
+        ],
+        "configurations": [
+            {
+                "operator": "AND",
+                "negate": null,
+                "nodes": [
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:redis:redis:-:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "5ebe5e1c-c881-4a76-9e36-4fb7c48427e6",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    },
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": false,
+                                "criteria": "cpe:2.3:o:canonical:ubuntu_linux:20.04:*:*:*:lts:*:*:*",
+                                "matchCriteriaId": "902b8056-9e37-443b-8905-8aa93e2447fb",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": false,
+                                "criteria": "cpe:2.3:o:canonical:ubuntu_linux:21.10:*:*:*:-:*:*:*",
+                                "matchCriteriaId": "3d94da3b-fa74-4526-a0a0-a872684598c6",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": false,
+                                "criteria": "cpe:2.3:o:debian:debian_linux:9.0:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "deece5fc-cacf-4496-a3e7-164736409252",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": false,
+                                "criteria": "cpe:2.3:o:debian:debian_linux:10.0:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "07b237a9-69a3-4a9c-9da0-4e06bd37ae73",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            },
+                            {
+                                "vulnerable": false,
+                                "criteria": "cpe:2.3:o:debian:debian_linux:11.0:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "fa6feec2-9f11-4643-8827-749718254fed",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "epss_score": 0.97141,
+        "epss_percentile": 0.99845
+    },
+    {
+        "name": "CVE-2021-45382",
+        "severity": 9.8,
+        "api_last_modified": "2025-01-29T21:15:11.770000",
+        "api_created": "2022-02-17T21:15:07.737000",
+        "references": [
+            {
+                "_id": "679acf560f24808dda0ef31a",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://github.com/doudoudedi/D-LINK_Command_Injection1/blob/main/D-LINK_Command_injection.md",
+                "storage_url": null,
+                "name": null,
+                "source": "cve@mitre.org",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Exploit",
+                    "Third Party Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef31b",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10264",
+                "storage_url": null,
+                "name": null,
+                "source": "cve@mitre.org",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Vendor Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef31c",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://github.com/doudoudedi/D-LINK_Command_Injection1/blob/main/D-LINK_Command_injection.md",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Exploit",
+                    "Third Party Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef31d",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10264",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Vendor Advisory"
+                ]
+            }
+        ],
+        "metrics": {
+            "version": "3.1",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "attackVector": "NETWORK",
+            "attackComplexity": "LOW",
+            "privilegesRequired": "NONE",
+            "userInteraction": "NONE",
+            "scope": "UNCHANGED",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "availabilityImpact": "HIGH",
+            "baseScore": 9.8,
+            "baseSeverity": "CRITICAL",
+            "exploitCodeMaturity": null,
+            "remediationLevel": null,
+            "reportConfidence": null,
+            "temporalScore": null,
+            "temporalSeverity": null,
+            "confidentialityRequirement": null,
+            "integrityRequirement": null,
+            "availabilityRequirement": null,
+            "modifiedAttackVector": null,
+            "modifiedAttackComplexity": null,
+            "modifiedPrivilegesRequired": null,
+            "modifiedUserInteraction": null,
+            "modifiedScope": null,
+            "modifiedConfidentialityImpact": null,
+            "modifiedIntegrityImpact": null,
+            "modifiedAvailabilityImpact": null,
+            "environmentalScore": null,
+            "environmentalSeverity": null
+        },
+        "weaknesses": [
+            {
+                "source": "nvd@nist.gov",
+                "type": "Primary",
+                "description": [
+                    {
+                        "lang": "en",
+                        "value": "CWE-78"
+                    }
+                ]
+            },
+            {
+                "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+                "type": "Secondary",
+                "description": [
+                    {
+                        "lang": "en",
+                        "value": "CWE-78"
+                    }
+                ]
+            }
+        ],
+        "configurations": [
+            {
+                "operator": "AND",
+                "negate": null,
+                "nodes": [
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:dlink:dir-820l_firmware:-:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "bc65de67-1143-4165-bce2-1ebeb2510003",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    },
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": false,
+                                "criteria": "cpe:2.3:h:dlink:dir-820l:-:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "88ce60cd-dcda-43e0-80a9-257557edbc29",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "operator": "AND",
+                "negate": null,
+                "nodes": [
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:dlink:dir-820lw_firmware:-:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "c5d0b0b3-29c1-4143-b1c2-d228aa9694b8",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    },
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": false,
+                                "criteria": "cpe:2.3:h:dlink:dir-820lw:-:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "9cfe3ee8-70b8-4a1d-a449-a31b3e4897ab",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "operator": "AND",
+                "negate": null,
+                "nodes": [
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:dlink:dir-826l_firmware:-:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "2b65a1c2-670d-49a3-91d4-b592815cc6d7",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    },
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": false,
+                                "criteria": "cpe:2.3:h:dlink:dir-826l:-:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "36554d63-d4a3-499a-bd79-8c8729cb003e",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "operator": "AND",
+                "negate": null,
+                "nodes": [
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:dlink:dir-830l_firmware:-:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "e09c68c8-3ccf-43a9-ae31-011f08a93f55",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    },
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": false,
+                                "criteria": "cpe:2.3:h:dlink:dir-830l:-:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "889685bb-efd4-46ca-bbf1-f215dad02c92",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "operator": "AND",
+                "negate": null,
+                "nodes": [
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:dlink:dir-836l_firmware:-:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "5d284e3d-970d-41a7-b7ca-b531d2be5666",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    },
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": false,
+                                "criteria": "cpe:2.3:h:dlink:dir-836l:-:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "ee2ed91b-738d-448b-b7e0-d869539571f1",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "operator": "AND",
+                "negate": null,
+                "nodes": [
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:o:dlink:dir-810l_firmware:-:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "0c56ce73-9b68-4a0a-a2a3-878d90a0d4ef",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    },
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": false,
+                                "criteria": "cpe:2.3:h:dlink:dir-810l:-:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "8b79563c-609a-4f9f-8f2f-fff3d10e6684",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": null,
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "epss_score": 0.96223,
+        "epss_percentile": 0.99592
+    },
+    {
+        "name": "CVE-2021-4102",
+        "severity": 8.8,
+        "api_last_modified": "2025-01-29T17:15:15.653000",
+        "api_created": "2022-02-11T23:15:08.273000",
+        "references": [
+            {
+                "_id": "679acf560f24808dda0ef30c",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://chromereleases.googleblog.com/2021/12/stable-channel-update-for-desktop_13.html",
+                "storage_url": null,
+                "name": null,
+                "source": "chrome-cve-admin@google.com",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Release Notes",
+                    "Vendor Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef30d",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://crbug.com/1278387",
+                "storage_url": null,
+                "name": null,
+                "source": "chrome-cve-admin@google.com",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Third Party Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef30e",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://chromereleases.googleblog.com/2021/12/stable-channel-update-for-desktop_13.html",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Release Notes",
+                    "Vendor Advisory"
+                ]
+            },
+            {
+                "_id": "679acf560f24808dda0ef30f",
+                "created": "2025-01-30T01:01:10.043000",
+                "updated": "2025-01-30T01:01:10.043000",
+                "url": "https://crbug.com/1278387",
+                "storage_url": null,
+                "name": null,
+                "source": "af854a3a-2127-422b-91ae-364da2661108",
+                "summary": null,
+                "type": "web_page",
+                "tags": [
+                    "Third Party Advisory"
+                ]
+            }
+        ],
+        "metrics": {
+            "version": "3.1",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "attackVector": "NETWORK",
+            "attackComplexity": "LOW",
+            "privilegesRequired": "NONE",
+            "userInteraction": "REQUIRED",
+            "scope": "UNCHANGED",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.8,
+            "baseSeverity": "HIGH",
+            "exploitCodeMaturity": null,
+            "remediationLevel": null,
+            "reportConfidence": null,
+            "temporalScore": null,
+            "temporalSeverity": null,
+            "confidentialityRequirement": null,
+            "integrityRequirement": null,
+            "availabilityRequirement": null,
+            "modifiedAttackVector": null,
+            "modifiedAttackComplexity": null,
+            "modifiedPrivilegesRequired": null,
+            "modifiedUserInteraction": null,
+            "modifiedScope": null,
+            "modifiedConfidentialityImpact": null,
+            "modifiedIntegrityImpact": null,
+            "modifiedAvailabilityImpact": null,
+            "environmentalScore": null,
+            "environmentalSeverity": null
+        },
+        "weaknesses": [
+            {
+                "source": "nvd@nist.gov",
+                "type": "Primary",
+                "description": [
+                    {
+                        "lang": "en",
+                        "value": "CWE-416"
+                    }
+                ]
+            },
+            {
+                "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+                "type": "Secondary",
+                "description": [
+                    {
+                        "lang": "en",
+                        "value": "CWE-416"
+                    }
+                ]
+            }
+        ],
+        "configurations": [
+            {
+                "operator": "OR",
+                "negate": null,
+                "nodes": [
+                    {
+                        "operator": "OR",
+                        "negate": false,
+                        "cpeMatch": [
+                            {
+                                "vulnerable": true,
+                                "criteria": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
+                                "matchCriteriaId": "bc0c0a98-ee32-4574-8b94-2b58f6a08cb2",
+                                "versionStartExcluding": null,
+                                "versionStartIncluding": null,
+                                "versionEndExcluding": "96.0.4664.110",
+                                "versionEndIncluding": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "epss_score": 0.02491,
+        "epss_percentile": 0.90485
+    }
+]
