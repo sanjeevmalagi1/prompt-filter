@@ -4,21 +4,9 @@ import { ICVE } from "./interfaces";
 
 // import cves from "../test/mocks/cves.json"
 
-
-const TRANSILIENCE_API_BASE_URL = import.meta.env.VITE_TRANSILIENCE_API_BASE_URL
-// const TRANSILIENCE_API_KEY = import.meta.env.VITE_TRANSILIENCE_API_KEY
-const TRANSILIENCE_BARER_TOKEN = import.meta.env.VITE_TRANSILIENCE_BARER_TOKEN
 const PROMPT_FILTER_API_BASE_URL = import.meta.env.VITE_PROMPT_FILTER_API_BASE_URL
 
 const axiosInstance = axios.create({
-    baseURL: TRANSILIENCE_API_BASE_URL,
-    headers: {
-      "Content-Type": "application/json",
-      "Authorization": `Bearer ${TRANSILIENCE_BARER_TOKEN}`
-    }
-})
-
-const pfAPIAxiosInstance = axios.create({
     baseURL: PROMPT_FILTER_API_BASE_URL,
     headers: {
       "Content-Type": "application/json"
@@ -41,7 +29,7 @@ export async function fetchPayload(prompt: string) {
     const body = {
         "user_prompt": prompt
     }
-    const response = await pfAPIAxiosInstance.post(`/v1/payload`, body)
+    const response = await axiosInstance.post(`/v1/payload`, body)
     
     if (response.status !== 200) {
         return null
@@ -62,7 +50,7 @@ export async function fetchCVEs(payload: ICVEPayload | null): Promise<ICVE[]|nul
 
     const body = payload
     
-    const response = await axiosInstance.post(`/cves`, body)
+    const response = await axiosInstance.post(`/v1/cves`, body)
     if (response.status !== 200) {
         return null
     }
