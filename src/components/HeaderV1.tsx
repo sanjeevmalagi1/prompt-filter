@@ -1,7 +1,7 @@
 function HeaderV1() {
   return (
-    <div className="container mx-auto m-5">
-      <h1 className="font-bold text-3xl">Promt Based Filter</h1>
+    <div className="bg-amber-700 text-white mx-auto p-5">
+      <h1 className="font-bold text-3xl">Prompt Based Filter</h1>
     </div>
   )
 }
