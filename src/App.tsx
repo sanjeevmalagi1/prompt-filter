@@ -12,11 +12,16 @@ import {
 
 function App() {
   const [isLoading, setIsLoading] = useState(false)
+  const [firstRequest, setFirstRequest] = useState(true)
   const [cves, setCves] = useState<ICVE[] | null>([])
 
   const handleSubmit = async (searchText: string) => {
     setIsLoading(true)
 
+    if (firstRequest) {
+      setFirstRequest(false)
+    }
+    
     const response = await fetchPayload(searchText)
     const data = await fetchCVEs(response)
     setCves(data)
@@ -24,14 +29,14 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="bg-background">
       <HeaderV1 />
-      <div className="mx-4 md:container md:mx-auto mb-10">
+      <div className="mx-2 min-h-screen md:container md:mx-auto mb-10">
         <div className="my-5">
           <SearchV1 onSearch={handleSubmit} />
         </div>
         <div className="my-5">
-          <ListV1 isLoading={isLoading} data={cves} />
+          <ListV1 firstRequest={firstRequest} isLoading={isLoading} data={cves} />
         </div>
       </div>
       <FooterV1 />

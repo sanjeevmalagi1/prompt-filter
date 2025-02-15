@@ -9,7 +9,7 @@ function CVECardV1(props: ICVECardV1) {
   const { cve } = props;
 
   return (
-    <div className="border-b border-primary-dark min-h-5" key={cve.name}>
+    <div className="border-b last:border-b-0 border-primary-dark min-h-5" key={cve.name}>
       <div className="flex items-center justify-between">
         <h1 className="text-xl font-bold">{cve.name}</h1>
         {cve.severity && <SeverityScaleV1 severity={cve.severity} />}
