@@ -1,6 +1,8 @@
 import { ICVE } from "../interfaces"
+import { formatDate } from "../services"
 
 import { SeverityScaleV1 } from "./"
+
 
 interface ICVECardV1 {
   cve: ICVE;
@@ -26,9 +28,15 @@ function CVECardV1(props: ICVECardV1) {
           </div>
         </div>
 
-        <div className="py-2">
-          <div className="text-xs">Last Updated At</div>
-          {cve.api_last_modified}
+        <div className="py-2 flex flex-col md:flex-row gap-2 justify-between">
+          <div>
+            <div className="text-xs">Created At</div>
+            {formatDate(cve.api_created)}
+          </div>
+          <div>
+            <div className="text-xs">Last Updated At</div>
+            {formatDate(cve.api_last_modified)}
+          </div>
         </div>
       </div>
     </div>

@@ -25,9 +25,7 @@ function SeverityScaleV1(props: ISeverityScaleV1) {
           ></div>
         ))}
       </div>
-
-      
-      <div className="text-2xl font-bold text-gray-700">{severity}</div>
+      <div className="text-2xl font-bold text-gray-700">{severity.toFixed(1)}</div>
     </div>
   )
 }

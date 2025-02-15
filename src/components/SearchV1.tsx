@@ -1,14 +1,20 @@
 import { useState } from "react"
 
 interface ISearchV1 {
+  isLoading: boolean;
   onSearch: (input: string) => void;
 }
 function SearchV1(props: ISearchV1) {
-  const { onSearch } = props
+  const { isLoading, onSearch } = props
   const [input, setInput] = useState("")
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
+
+    if (isLoading) {
+      return
+    }
+
     onSearch(input)
   }
   
